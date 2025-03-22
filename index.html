@@ -4,11 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar"></nav>
+    <header class="container">
+      <nav class="navbar">
+        <img src="/icons/header-logo.png" alt="header logo SS" width="100px" />
+
+        <ul class="nav-items">
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">testimonials</a></li>
+          <li><a href="#">contact</a></li>
+
+          <li class="stick"></li>
+
+          <li>
+            <i class="fa-solid fa-sun"></i>
+          </li>
+
+          <li>
+            <button class="download-cv">Download CV</button>
+          </li>
+        </ul>
+      </nav>
 
       <div class="showcase"></div>
     </header>
