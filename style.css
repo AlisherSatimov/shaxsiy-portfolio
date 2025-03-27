@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
   color: #4b5563;
 
-  padding: 16px 16px;
+  padding: 16px 10px;
 }
 
 .nav-items {
@@ -74,7 +74,7 @@ header {
   flex-direction: column;
   width: 80%;
   height: 100vh;
-  padding: 18px 0;
+  padding: 18px 10px 0 0;
   background-color: #ffffff;
   position: absolute;
   top: 0;
@@ -136,7 +136,7 @@ header {
   display: flex;
   margin-top: 96px;
   justify-content: space-between;
-  padding: 0 25px;
+  padding: 0 18px;
 }
 
 .showcase-content h1 {
@@ -203,7 +203,7 @@ header {
   }
 
   .showcase-image img {
-    width: 260px;
+    width: 280px;
     margin: 40px 0;
   }
 
