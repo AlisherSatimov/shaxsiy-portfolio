@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
   color: #4b5563;
 
-  padding: 16px 0;
+  padding: 16px 16px;
 }
 
 .nav-items {
@@ -136,7 +136,7 @@ header {
   display: flex;
   margin-top: 96px;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 25px;
 }
 
 .showcase-content h1 {
